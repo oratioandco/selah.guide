@@ -3,18 +3,26 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Selah - Mindful Meeting Transitions</title>
+        <title>Selah - Mindful Meeting Transitions for Better Leadership | Mac App</title>
+        <link rel="stylesheet" href="assets/fonts/switzer/switzer.css" />
+        <link rel="stylesheet" href="assets/fonts/gambarino/gambarino.css" />
         <link rel="stylesheet" href="assets/style.css" />
         <meta
             name="description"
             content="Transform your workday with mindful meeting transitions.
   Selah brings ancient wisdom to modern productivity."
         />
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/selah-icon-32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/selah-icon-16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/selah-icon-256.png" />
     </head>
     <body>
-        <nav>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <nav role="navigation" aria-label="Main navigation">
             <div class="container">
-                <a href="/" class="logo">Selah</a>
+                <a href="/" class="logo" aria-label="Selah home page">
+                    <img src="assets/images/selah-logo.svg" alt="Selah" class="logo-image" />
+                </a>
                 <div class="nav-links">
                     <a href="/about">About</a>
                     <a href="/support">Support</a>
@@ -23,83 +31,190 @@
             </div>
         </nav>
 
-        <header class="hero">
+        <header class="hero" id="main-content">
             <div class="container">
-                <h1>Transform Your Workday with Sacred Pauses</h1>
-                <p class="subtitle">Ancient wisdom meets modern neuroscience</p>
-                <p class="description">
-                    Selah creates 60-90 second mindful transitions between
-                    meetings that reduce stress, improve cognitive performance,
-                    and help you access your full leadership potential.
-                </p>
-                <a href="#" class="cta-button">Download on Mac App Store</a>
-                <p class="availability">Coming Soon to Mac App Store</p>
+                <div class="hero-content">
+                    <img src="assets/images/selah-icon-128.png" alt="Selah App Icon" class="hero-icon" />
+                    <h1>Stop Drowning in Your Calendar</h1>
+                    <p class="subtitle">The sacred pause that transforms context-switching chaos into mindful leadership</p>
+                    <p class="description">
+                        Born from a "shadow calendar" hack, Selah combines ancient Hebrew wisdom with modern neuroscience to create 60-90 second mindful transitions that help you show up as your best self in every meeting.
+                    </p>
+                    <button type="button" class="cta-button" aria-describedby="availability-note">Download on Mac App Store</button>
+                    <p class="availability" id="availability-note">Coming Soon to Mac App Store</p>
+                </div>
             </div>
         </header>
 
-        <section class="features">
+        <section class="origin-story" aria-labelledby="origin-heading">
             <div class="container">
-                <h2>Why Selah?</h2>
+                <h2 id="origin-heading">The Problem: Context-Switching Crisis</h2>
+                <p class="story-intro">
+                    As a design leader drowning in back-to-back meetings, I was struggling to show up as my best self. 
+                    One meeting required leading and giving detailed feedback, the next demanded listening and asking thoughtful questions.
+                </p>
+                <p class="story-intro">
+                    Without intentional transitions, I couldn't naturally switch modes. I was exhausted.
+                </p>
+                
+                <div class="solution-highlight">
+                    <h3>The "Shadow Calendar" Hack</h3>
+                    <p>
+                        I started creating 1-minute calendar events before important meetings with coaching notes to myself:
+                    </p>
+                    <div class="coaching-examples">
+                        <div class="coaching-note">
+                            <strong>"Listen, ignore emotional triggers, focus on content"</strong>
+                            <span>for challenging recurring meetings</span>
+                        </div>
+                        <div class="coaching-note">
+                            <strong>"Ask curious questions, don't solve everything"</strong>
+                            <span>for team one-on-ones</span>
+                        </div>
+                        <div class="coaching-note">
+                            <strong>"Praise the presentation—highlight effort and growth"</strong>
+                            <span>for meetings with junior team members</span>
+                        </div>
+                    </div>
+                    <p class="solution-result">
+                        This gave me exactly the mindset I needed before each meeting. It was a game-changer, but entirely manual.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" aria-labelledby="features-heading">
+            <div class="container">
+                <h2 id="features-heading">How Selah Works</h2>
+                <p class="features-intro">
+                    Selah does something beautifully simple: it creates 60-90 seconds of intentional transition before each meeting.
+                </p>
                 <div class="feature-grid">
                     <div class="feature">
-                        <h3>📅 Smart Calendar Integration</h3>
+                        <div class="feature-number">1</div>
+                        <h3>Gentle Interruption</h3>
                         <p>
-                            Seamlessly connects with macOS Calendar. See
-                            upcoming meetings in your menu bar.
+                            Full-screen notifications catch meeting starts during deep work. 
+                            A gentle "now" → "breathe" animation pulls you into the present moment, 
+                            away from your previous task.
                         </p>
                     </div>
                     <div class="feature">
-                        <h3>🫁 Guided Breathing</h3>
+                        <div class="feature-number">2</div>
+                        <h3>Mindful Preparation</h3>
                         <p>
-                            Science-backed 4-7-8 breathing pattern with
-                            beautiful, distraction-free animations.
+                            Review your upcoming meeting with any coaching notes you've added. 
+                            Then engage in the scientifically-backed 4-7-8 breathing pattern 
+                            to lower cortisol and improve cognitive clarity.
                         </p>
                     </div>
                     <div class="feature">
-                        <h3>✍️ Meeting Intentions</h3>
+                        <div class="feature-number">3</div>
+                        <h3>Intentional Choice</h3>
                         <p>
-                            Set intentions for how you want to show up.
-                            Persistent notes for recurring meetings.
-                        </p>
-                    </div>
-                    <div class="feature">
-                        <h3>🔗 Seamless Meeting Flow</h3>
-                        <p>
-                            One-click join for Zoom, Teams, Meet. Handles
-                            overlapping meetings with grace.
+                            Finish each transition by clicking "I'm ready"—creating cognitive agency 
+                            and intentional choice rather than reactive rushing. 
+                            You enter meetings fully present and prepared.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="about-section">
+        <section class="impact-section">
             <div class="container">
-                <h2>The Power of Conscious Pauses</h2>
-                <p>
-                    Based on the ancient Hebrew practice from the Psalms, Selah
-                    creates sacred pauses in our meeting-heavy world. Modern
-                    neuroscience confirms what ancient wisdom knew: brief,
-                    intentional transitions reduce stress and improve cognitive
-                    performance.
-                </p>
-                <p>
-                    Perfect for leaders, knowledge workers, and anyone who wants
-                    to show up more intentionally in their meetings.
+                <h2>The Ripple Effects</h2>
+                <div class="impact-grid">
+                    <div class="impact-item">
+                        <h3>Personal Transformation</h3>
+                        <p>
+                            Instead of rushing into meetings with my mind still on the previous call, I arrive fully present. 
+                            My questions got better. My listening improved. My stress levels dropped noticeably.
+                        </p>
+                    </div>
+                    <div class="impact-item">
+                        <h3>Team Contagion</h3>
+                        <p>
+                            When leaders model presence and intentionality, it creates "emotional contagion." 
+                            My team started arriving more prepared. Our meetings became more focused. 
+                            The quality of our work improved.
+                        </p>
+                    </div>
+                    <div class="impact-item">
+                        <h3>Cultural Shift</h3>
+                        <p>
+                            This isn't about time management or productivity hacks. It's about presence. 
+                            Moving from reactivity to reflection, from speed to wisdom, from efficiency to effectiveness.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="app-preview">
+            <div class="container">
+                <h2>See Selah in Action</h2>
+                <div class="screenshots-grid">
+                    <div class="screenshot-item">
+                        <img src="assets/images/screenshot-1.png" alt="Selah app interface showing mindful transition screen with breathing exercise" />
+                        <p class="screenshot-caption">Mindful transitions between meetings</p>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/images/screenshot-2.png" alt="Selah app displaying guided breathing exercise with 4-7-8 breathing pattern" />
+                        <p class="screenshot-caption">Guided breathing exercises</p>
+                    </div>
+                    <div class="screenshot-item">
+                        <img src="assets/images/screenshot-3.png" alt="Selah app calendar integration showing upcoming meetings and coaching notes" />
+                        <p class="screenshot-caption">Calendar integration</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section" aria-labelledby="about-heading">
+            <div class="container">
+                <h2 id="about-heading">Ancient Wisdom Meets Modern Science</h2>
+                <div class="wisdom-science-grid">
+                    <div class="wisdom-card">
+                        <h3>The Ancient Solution: Selah (סֶלָה)</h3>
+                        <p>
+                            From the Hebrew Psalms, Selah appears 71 times as a transition marker—an intentional pause for reflection at crucial moments. 
+                            It functioned as an ancient device for human flourishing: a reflective pause to process life's tensions and find renewed strength.
+                        </p>
+                        <p class="scripture-reference">
+                            <em>"Cast all your anxiety on him because he cares for you. Be alert and of sober mind."</em> —1 Peter 5:7-8
+                        </p>
+                    </div>
+                    <div class="science-card">
+                        <h3>The Modern Science</h3>
+                        <ul class="science-benefits">
+                            <li><strong>Attention Switching:</strong> Brief mindfulness meditations improve focus transitions and reduce stress</li>
+                            <li><strong>4-7-8 Breathing:</strong> Activates the vagus nerve, drops cortisol, and increases cognitive clarity in 60-90 seconds</li>
+                            <li><strong>Implementation Intentions:</strong> Specific coaching notes make you 2-3x more likely to achieve meeting goals</li>
+                            <li><strong>Cognitive Agency:</strong> Choosing your response (vs. reacting) activates the prefrontal cortex</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="section-conclusion">
+                    When leaders model presence and intentionality, it creates "emotional contagion"—your team becomes more present too. 
+                    The result: more focused meetings, better decision-making, and sustainable leadership.
                 </p>
             </div>
         </section>
 
-        <footer>
+        <footer role="contentinfo">
             <div class="container">
-                <p>&copy; 2024 Tobias Treppmann. All rights reserved.</p>
+                <p>&copy; 2025 Tobias Treppmann. All rights reserved.</p>
                 <div class="footer-links">
                     <a href="/privacy">Privacy Policy</a>
                     <a href="/terms">Terms of Service</a>
+                    <a href="/impressum">Impressum</a>
+                    <a href="/accessibility">Accessibility</a>
                     <a href="/support">Support</a>
                     <a href="mailto:support@selah.guide">Contact</a>
                 </div>
             </div>
         </footer>
+        <script src="assets/accessibility.js"></script>
     </body>
 </html>

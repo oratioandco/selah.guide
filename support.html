@@ -3,13 +3,21 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Support - Selah</title>
+        <title>Support & Help - Selah | Get Help with Mindful Meeting Transitions</title>
+        <link rel="stylesheet" href="assets/fonts/switzer/switzer.css" />
+        <link rel="stylesheet" href="assets/fonts/gambarino/gambarino.css" />
         <link rel="stylesheet" href="assets/style.css" />
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/selah-icon-32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/selah-icon-16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/selah-icon-256.png" />
     </head>
     <body>
-        <nav>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <nav role="navigation" aria-label="Main navigation">
             <div class="container">
-                <a href="/" class="logo">Selah</a>
+                <a href="/" class="logo" aria-label="Selah home page">
+                    <img src="assets/images/selah-logo.svg" alt="Selah" class="logo-image" />
+                </a>
                 <div class="nav-links">
                     <a href="/about">About</a>
                     <a href="/support">Support</a>
@@ -18,7 +26,7 @@
             </div>
         </nav>
 
-        <main class="content-page">
+        <main class="content-page" id="main-content">
             <div class="container">
                 <h1>Support</h1>
 
@@ -77,7 +85,6 @@
                         <li>
                             Check that your Calendar app is syncing properly
                         </li>
-                        <li>Try clicking the refresh button in Selah</li>
                     </ul>
                 </div>
 
@@ -95,24 +102,6 @@
                             Check your notification timing in Selah Settings
                         </li>
                     </ol>
-                </div>
-
-                <div class="faq-item">
-                    <h4>The breathing exercise won't start</h4>
-                    <p>If the mindful transition doesn't appear:</p>
-                    <ul>
-                        <li>
-                            Check your notification behavior setting in Selah
-                        </li>
-                        <li>
-                            Ensure the app has screen recording permissions if
-                            needed
-                        </li>
-                        <li>
-                            Try manually triggering a breathing exercise from
-                            the menu
-                        </li>
-                    </ul>
                 </div>
 
                 <h3>Features</h3>
@@ -180,15 +169,18 @@
             </div>
         </main>
 
-        <footer>
+        <footer role="contentinfo">
             <div class="container">
-                <p>&copy; 2024 Tobias Treppmann. All rights reserved.</p>
+                <p>&copy; 2025 Tobias Treppmann. All rights reserved.</p>
                 <div class="footer-links">
                     <a href="/privacy">Privacy Policy</a>
                     <a href="/terms">Terms of Service</a>
+                    <a href="/impressum">Impressum</a>
+                    <a href="/accessibility">Accessibility</a>
                     <a href="/support">Support</a>
                 </div>
             </div>
         </footer>
+        <script src="assets/accessibility.js"></script>
     </body>
 </html>
