@@ -1,0 +1,12 @@
+/* Gambarino Font */
+@font-face {
+  font-family: 'Gambarino';
+  src:
+    url('Gambarino-Regular.woff2') format('woff2'),
+    url('Gambarino-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Note: Only Regular weight is available for Gambarino */
