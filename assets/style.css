@@ -276,6 +276,21 @@ nav .container {
     letter-spacing: 0.3px;
 }
 
+.mac-app-store-badge {
+    display: inline-block;
+    margin-top: var(--spacing-large);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mac-app-store-badge:hover {
+    transform: translateY(-2px);
+}
+
+.mac-app-store-badge img {
+    height: 40px;
+    width: auto;
+}
+
 .availability {
     margin-top: var(--spacing-medium);
     color: var(--secondary-text);
